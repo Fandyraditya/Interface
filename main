@@ -1,0 +1,21 @@
+package com.company;
+
+public class Main implements panggilan{
+
+    public static void main(String[] args) {
+        Main plg = new Main();
+        plg.panggilan1();
+        plg.panggilan2();
+    }
+
+    @Override
+    public void panggilan1() {
+        System.out.println("panggilan (1)");
+    }
+
+    @Override
+    public void panggilan2() {
+        System.out.println("panggilan (2)");
+
+    }
+}
