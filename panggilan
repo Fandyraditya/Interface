@@ -1,0 +1,6 @@
+package com.company;
+
+public interface panggilan {
+    public void panggilan1();
+    public void panggilan2();
+}
